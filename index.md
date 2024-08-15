@@ -1,2 +1,33 @@
 <iframe src="qgis2web_2024_08_15-18_25_42_796543/index.html" height="500" width="500"></iframe>
 <iframe src="Rail3d/Rail3d.html" height="500" width="500"></iframe>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side by Side Interactive Maps</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        .map-container {
+            width: 49%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="map-container">
+        <iframe src="Rail3d/Rail3d.html" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+    <div class="map-container">
+        <iframe src="qgis2web_2024_08_15-18_25_42_796543/index.html" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
